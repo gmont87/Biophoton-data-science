@@ -75,4 +75,33 @@ np.round(x, n) # Round to n decimal places
 np.var(x) # Calculate variance (- a statistical measure of how spread out a data set is from its mean, calculated as the average of the squared differences from the mean) 
 np.std(x) # Calc standard deviation
 
-# test commit
+### Date: 10.18.2025
+#### Today's learnings:
+- How to check Python and pip versions ('python3 --version', 'pip3 --version').
+    - python3 --version, tells me which version of pyhtin is installed on my system. Currently i have Python 3.9.6.
+    - pip3 --version, tells me which version of Python package installed is available and which Python it is associated with.
+    # So i was attempting to run some code for the photon count simulation but it wouldn't work because I did not have NumPy nor Matplotlib installed. so i when i attempted to run 'pip install numpy matplotlib' in the terminal in VS Code I encountered this: zsh: command not found: pip. So I determined my version of python using python3 --version, and found that I had Python 3.9.6 installed. Then I was lead to ensure that the pip (pachake installer) was properly set up for this version. I did this by running 'python3 -m ensurepip --upgrade' in the VS Code terminal, which told Python to install or repair pip if it was missing. Next I ran 'pip3 --version' in order to determine my pip version which was 'pip 21.2.4' and demonstrated that pip3 is installed and working and correctly tied to Python 3.9. So, now i ran the command 'pip3 install numpy matplotlib', which worked.
+
+
+- Installed 'numpy' and 'matplotlib' with pip.
+    - NumPy -> library for efficient math operation, arrays, and numerical computations.
+    - Matplotlib -> library for plotting vissually
+    # These will be importan for simulating photon counts and manipulating arrays, aswell as, enabling me to visualize emission patterns.
+- Created a virtual environment using:
+python3 -m venv venv
+source venv/bin/activate
+    # This created an isolated Python environment inside of my project folder. This enables me to install packages within the folder rather than globally on my system.
+    - 'source venv/bin/activate' initiates the vitual environment so that the terminal uses it.
+    # This enables me to maintain my projects seperate so that, for example, installation of library doesnt break another project.
+    # It also facilitates reproducibility.
+    # Lastly, it apparently prevents "dependency hell" when multiple projects require different versions of the same library.
+
+pip install numpy matplotlib
+- Learned to freeze environment dependencies ('pip freeze > requirements.txt').
+- Added 'venv/' to '.gitignore' to avoid commiting large folders to GitHub.
+
+- Tested setup with a simple sine wave plot using NumPy + Matplotlib.
+_ Understood the difference between:
+- **Commit** -> saves changes locally.
+- **Push** -> uploads changes to GitHub.com.
+
