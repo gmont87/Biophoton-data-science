@@ -105,3 +105,16 @@ _ Understood the difference between:
 - **Commit** -> saves changes locally.
 - **Push** -> uploads changes to GitHub.com.
 
+
+### Course: DataCamp_Dictionaries, Part 1
+
+-Dictionaries use {}
+* Reminder: 'x.index(y)' finds the place of y in list x. Then if I assign a value to this index, say, 'a = x.index(y)' I can use 'a' to call the same place in a corresponding list, say, 'b[a]'. Remeber to use the [ ] for lists.
+
+- A dictionary seems to have a key with a corresponding value as such:
+    my_dict = {
+   "key1":"value1",
+   "key2":"value2",}
+
+- The keys in a dictionary can be printed by adding .keys() to the dictionary name.
+- Similarly, the value corresponding to a key may be returned by calling the dictionare with the key in [}: my_dict["key1"]
