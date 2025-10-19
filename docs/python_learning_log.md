@@ -119,6 +119,8 @@ _ Understood the difference between:
 - The keys in a dictionary can be printed by adding .keys() to the dictionary name.
 - Similarly, the value corresponding to a key may be returned by calling the dictionare with the key in [}: my_dict["key1"]
 
+Example: [Python Basic Dictionary Script](/Users/ginomontero/Documents/GitHub/Biophoton-data-lab/Biophoton-data-science/code_snippets/2025-10-18_Python_Dictionaries)
+
 ### Understanding .gitignore, tracked files, and the cleanup command
 - This was neccessary to understand because after creating the virtual environment, 1000s of files appeard in my GitHub desktop in the files changed area instead of just the ones that I wanted to commit to GitHub. Instruction provide by ChatGPT.
 1. How Git Tracks Files

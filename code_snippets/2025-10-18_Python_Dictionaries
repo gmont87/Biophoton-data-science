@@ -1,0 +1,16 @@
+# Create a definition of keys and values
+genus_species = ['canis lupis', 'lynx rufus', 'pseudacris crucifer']
+common_name = ['wolf', 'bobcat', 'spring peeper']
+
+# Create dictionary of animal names
+animal_id = {'canis lupis':'wolf', 'lynx rufus':'bobcat', 'pseudacris crucifer':'spring peeper'}
+print(animal_id)
+
+# Print out the keys in animal_id
+print(animal_id.keys())
+
+# Print out values in animal_id
+print(animal_id.values())
+
+# Print out common name for lynx rufus
+print(animal_id['lynx rufus'])
