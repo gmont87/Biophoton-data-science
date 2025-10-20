@@ -211,3 +211,24 @@ _italic_ italic - highlight minor points (_italic_)
 'code' code - show inline code ('code')
 > Quote or note - Quote/emphasixe text (>)
 --- Horizontal line - Seperate sections (---)
+
+
+
+### 10-20-2025 — Python Dictionary practice
+
+- Learned from chatGPT about .get()
+    - Hase two arguments -> .get(key, default_value)
+    - key -> The key I want to look up in the dictionary.
+    - default_value -> The value that .get() returns if the key does not exist.
+    - If I dont add a value for the 2nd argument then it returns none.
+- .items() loops throught each item in the dictionary and its readings dictionary.
+-readings.get() looks for the object specified in the .get()
+-"f-strings" in python are formatted string literals. They allow you to embed a variable directly into a string
+Example: 
+name = "Marigold"
+count = 120
+
+print(f"{name} Day1 photon count: {count}")
+
+-without the f, {name} and {count} will be returned instead of Marigold and 120, respectively.
+- Created practice code: [2025-10-20_dictionaries_practice.py](/Users/ginomontero/Documents/GitHub/Biophoton-data-lab/Biophoton-data-science/code_snippets/2025-10-20_Python_dictionaries_practice.py)
