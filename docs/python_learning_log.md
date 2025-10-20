@@ -1,9 +1,10 @@
 # Python Learning Log
-
 ## 📘 Table of Contents
-- [10-17-2025 — DataCamp: Python Basics Notes](#date-10172025)
-- [10-18-2025 — DataCamp: Dictionaries Part 1 + Git Ignore & Cleanup](#date-10182025)
-- [10-19-2025 — DataCamp: Dictionaries Part 2](#date-10192025)
+
+- [10-17-2025 — DataCamp: Python Basics Notes](#10-17-2025--datacamp-python-basics-notes)
+- [10-18-2025 — DataCamp: Dictionaries Part 1 + Git Ignore & Cleanup](#10-18-2025--datacamp-dictionaries-part-1--git-ignore--cleanup)
+- [10-19-2025 — DataCamp: Dictionaries Part 2](#10-19-2025--datacamp-dictionaries-part-2)
+
 
 
 
