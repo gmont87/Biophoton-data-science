@@ -4,7 +4,7 @@
 - [10-17-2025 — DataCamp: Python Basics Notes](#10-17-2025--datacamp-python-basics-notes)
 - [10-18-2025 — DataCamp: Dictionaries Part 1 + Git Ignore & Cleanup](#10-18-2025--datacamp-dictionaries-part-1--git-ignore--cleanup)
 - [10-19-2025 — DataCamp: Dictionaries Part 2](#10-19-2025--datacamp-dictionaries-part-2)
-
+- [10-20-2025 — Python Dictionary practice](https://github.com/gmont87/Biophoton-data-science/blob/main/docs/python_learning_log.md#10-20-2025--python-dictionary-practice)
 
 
 
