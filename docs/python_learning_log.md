@@ -1,6 +1,14 @@
 # Python Learning Log
-## Day 5 - [10.17.25]
-### Course: DataCamp - Python Basics Notes
+
+## 📘 Table of Contents
+- [10.17.2025 — DataCamp: Python Basics Notes](#date-10172025)
+- [10.18.2025 — DataCamp: Dictionaries Part 1 + Git Ignore & Cleanup](#date-10182025)
+- [10.19.2025 — DataCamp: Dictionaries Part 2](#date-10192025)
+
+
+
+
+### 10.17.2025 — DataCamp: Python Basics Notes
 ** Importing packages:**
 Python uses packages that contain an assortment of tools developed by the open source community thereby increasing the options available through the python language. Packages may be installed by entering pip install (package name) in the command prompt. After package installation is completed, the package can be imported using the following commands:
 
@@ -43,7 +51,7 @@ x.count(2) # Count the number of element 2 in the list
 
 Selecting list elements:
 - Python lists us zero-indexing
-# Defin the list
+# Define the list
 x = ['a', 'b', 'c', 'd', 'e']
 x[0] # Select the 0th element in the list
 x[-1] # Select the last element of the list
@@ -75,8 +83,8 @@ np.round(x, n) # Round to n decimal places
 np.var(x) # Calculate variance (- a statistical measure of how spread out a data set is from its mean, calculated as the average of the squared differences from the mean) 
 np.std(x) # Calc standard deviation
 
-### Date: 10.18.2025
-#### Today's learnings:
+### 10.18.2025 — DataCamp: Dictionaries Part 1 + Git Ignore & Cleanup
+
 - How to check Python and pip versions ('python3 --version', 'pip3 --version').
     - python3 --version, tells me which version of pyhtin is installed on my system. Currently i have Python 3.9.6.
     - pip3 --version, tells me which version of Python package installed is available and which Python it is associated with.
@@ -169,3 +177,23 @@ venv/
     3. Check 'changes' in GitHub Desktop before commiting and use the cleanup trick if I forget
     4. Keep the repo lean
         - Only Track files that define the project - code, data, and documentation. Anything that can be regenerated (logs, cache, venvs) should never be committed.
+
+
+
+### 10.19.2025 — DataCamp: Dictionaries Part 2
+
+-Keys are "immutable" (can't be changed). Strings, floats, booleans, int. Lists are mutable.
+- Using a list as akey will give you an error.
+
+List: 
+    - Select, update, and remove with []
+    - Indexed by range of numbers
+    - Collection of values, order matters, for selecting entire subsets
+Dictionary:
+    - Select, update, and remove with []
+    - Indexed by unique keys
+    - Lookup tables with unique keys
+
+- Add new values to a dictionary with dict['x'] = y  
+- Delete and item in a dict. with del(dict['x']) 
+- Created code snippet : /Users/ginomontero/Documents/GitHub/Biophoton-data-lab/Biophoton-data-science/code_snippets/2025-10-19_Python_Dictonaries_cont.py
