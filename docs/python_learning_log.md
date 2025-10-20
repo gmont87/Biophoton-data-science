@@ -232,3 +232,6 @@ print(f"{name} Day1 photon count: {count}")
 
 -without the f, {name} and {count} will be returned instead of Marigold and 120, respectively.
 - Created practice code: [2025-10-20_dictionaries_practice.py](/Users/ginomontero/Documents/GitHub/Biophoton-data-lab/Biophoton-data-science/code_snippets/2025-10-20_Python_dictionaries_practice.py)
+
+#### Linked Reading
+[High-Resolution Imaging of Plant Delayed Luminescence](/Users/ginomontero/Documents/GitHub/Biophoton-data-lab/Biophoton-data-science/docs/reading_notes/2025-10-20_High-Resolution_Imaging_of_Plant_Delayed_Luminescence.md)
