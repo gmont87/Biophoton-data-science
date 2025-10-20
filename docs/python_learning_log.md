@@ -18,12 +18,12 @@ from PackageName import ObjectName # Imports an object from the package
 
 ** Operators: **
 Arithmetic operators:
-+ #Add
-- # Subtract
-* # Multiply
-/ # Divide
-** # Exponent
-% # Returns 1 # Get the remainder after division with %
+(+) Add
+(-) Subtract
+(*)  Multiply
+(/)  Divide
+(**)  Exponent
+(%)  Returns 1, Get the remainder after division with %
 
 Assignment operators:
 a = 5 # assigns a value to a
