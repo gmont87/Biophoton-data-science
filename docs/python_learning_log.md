@@ -236,3 +236,14 @@ print(f"{name} Day1 photon count: {count}")
 #### Linked Reading
 [High-Resolution Imaging of Plant Delayed Luminescence](reading_notes/2025-10-20_High-Resolution_Imaging_of_Plant_Delayed_Luminescence.md)
 
+### 10-21-2025 — Enter Pandas
+#### DataCamp, Pandas
+- Pandas is an open source library that provides deasy to use data structures and data analysis tools for python.
+- DataFrame is a Pandas data structure that stores tabular data that can be labeled in rows and columns.
+- A CSV file is a "comma-seperated values" file type that is able to handle larger sets of data.
+- Single [] returns a Panda series
+- Double [[]] returns a Pandas DataFrame
+- loc is a label-based operation in Pandas.
+- iloc is an integer index based operation.
+
+- Created practice codeL [2025-10-21_Pandas_practice.py]
