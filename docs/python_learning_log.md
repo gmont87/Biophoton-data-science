@@ -248,3 +248,17 @@ print(f"{name} Day1 photon count: {count}")
 - iloc is an integer index based operation.
 
 - Created practice code: [2025-10-21_Pandas_practice.py]
+
+### 10-23-2025 — DataCamp: Comparison operators
+- Learned about comparisons between booleans, integers, strings, and carying data types.
+- ==, <, >, <=, >=, !=
+- These can also be used with arrays e.g. array1 >= array2, or array1 > 9, etc.
+- can do x >1 and x <2
+- For np.arrays use np.logical_and, or, and not.
+
+#### Linked Reading
+[Notes on Ultra weak photon emissions and electromagnetsim](docs/reading_notes/2025-10-23_Notes on UPE and electromagnetism.md)
+
+
+
+
