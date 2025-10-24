@@ -52,7 +52,7 @@ This setup uses a combination of a used integrated PMT module and a general-purp
 
 **PMT Module:**  
 The integrated Hamamatsu modules (H10721-01 or H6357-11) are key to minimizing setup complexity.  
-They provide a ready-to-use output signal (TTL-level pulses) directly from a BNC connector, so you do not have to handle high voltage or design complex preamplifier circuits yourself.
+They provide a ready-to-use output signal (TTL-level pulses) directly from a BNC connector, to avoid having to handle high voltage or design complex preamplifier circuits.
 
 **Frequency Counter:**  
 A dedicated, used frequency counter is more reliable and faster than an Arduino for single-photon counting.  
@@ -75,8 +75,8 @@ Ensure all connections are secure before applying power.
 
 **2. Mount the PMT and Sample in the Dark Box:**  
 - Securely mount the PMT module inside the light-tight enclosure.  
-- Design a holder for your biophoton sample (e.g., germinating seeds or fruit pulp) so it is close to the PMT’s photocathode window but not touching it.  
-- Ensure the box lid creates an absolute light seal. You may need foam weather stripping or black tape.  
+- Design a holder for your biophoton sample so it is close to the PMT’s photocathode window but not touching it.  
+- Ensure the box lid creates an absolute light seal. May need foam weather stripping or black tape.  
 
 **3. Connect the Power:**  
 Connect the low-voltage DC power supply to the PMT module’s power input (check the datasheet for correct voltage and polarity, usually +12V or +15V).
@@ -91,9 +91,9 @@ Use a BNC cable to connect the PMT module’s signal output to the input channel
 1. Close the dark box completely.  
 2. Turn on the PMT power supply.  
 3. Turn on the frequency counter and set it to a suitable gate time (e.g., 1 second).  
-4. Record the **dark count rate** with no sample inside the sealed box. This is your baseline noise level.  
-5. Place your sample inside the sealed box and measure the new count rate.  
-6. The difference between the sample count rate and the dark count rate is your **biophoton signal**.  
+4. Record the **dark count rate** with no sample inside the sealed box. This is the baseline noise level.  
+5. Place sample inside the sealed box and measure the new count rate.  
+6. The difference between the sample count rate and the dark count rate is the **biophoton signal**.  
 
 ---
 
