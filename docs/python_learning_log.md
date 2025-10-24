@@ -6,7 +6,7 @@
 - [10-19-2025 — DataCamp: Dictionaries Part 2](#10-19-2025--datacamp-dictionaries-part-2)
 - [10-20-2025 — Python Dictionary practice](https://github.com/gmont87/Biophoton-data-science/blob/main/docs/python_learning_log.md#10-20-2025--python-dictionary-practice)
 - [10-21-2025--Enter-Pandas](https://github.com/gmont87/Biophoton-data-science/blob/main/docs/python_learning_log.md#10-21-2025--enter-pandas)
-- [10-23-2025--DataCamp:-Comparison-operators]
+- [10-23-2025--DataCamp:-Comparison-operators](https://github.com/gmont87/Biophoton-data-science/blob/main/docs/python_learning_log.md#10-23-2025--datacamp-comparison-operators)
 
 
 
@@ -257,7 +257,7 @@ print(f"{name} Day1 photon count: {count}")
 - For np.arrays use np.logical_and, or, and not.
 
 #### Linked Reading
-[Notes on Ultra weak photon emissions and electromagnetsim](docs/reading_notes/2025-10-23_Notes on UPE and electromagnetism.md)
+[Notes on Ultra weak photon emissions and electromagnetsim](https://github.com/gmont87/Biophoton-data-science/blob/main/docs/reading_notes/2025-10-23_Notes%20on%20UPE%20and%20electromagnetism.md)
 
 
 
